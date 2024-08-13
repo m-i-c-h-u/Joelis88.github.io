@@ -1,0 +1,79 @@
+
+/* body */
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background-color: #4a0e53;
+  
+}
+.navbar-nav {
+  flex-direction: column;
+}
+
+/* Hero Section */
+#Hero-Section {
+    background-image: url("../imgs/bghero1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    flex-wrap:wrap ;
+    ;
+  }
+  .container {
+    
+    display: flex;
+    column-gap: 20px;
+    flex-direction: row;
+   align-content: space-between;
+    align-items: center;
+  
+  }
+
+  .perfil{
+    gap: 30px;
+  }
+  .Perfil img{
+    width: 25rem;
+    border-radius: 45%;
+  }
+
+/* Mis Estudios */
+.bg-df{
+    background-color: #4a0e53;
+}
+.bg-df2{
+    background-color: #d1dffe;
+}
+
+/* Mis trabajos */
+
+
+
+.bg{
+    background-color: #d1dffe;
+}
+
+#Experiencia .image-top {
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+/* Fork */
+.figure-caption{
+  font-size: x-large;
+  color: #4a0e53;
+}
+
+
+
+/* Footer */
+.bgfooter{
+    text-align: center;
+    background-color: #4a0e53;
+  
+}
